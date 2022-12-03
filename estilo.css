@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Raleway:wght@400;700&display=swap');
+
+body{
+    background-color: #272727;
+    margin: 0;
+    color: white;
+    font-family: 'Raleway';
+}
+
+h1{
+color: white;
+width: 100%;
+text-align: center;
+font-size: 3em;
+}
+
+div#caixaIdade{
+background: #CA7900;
+margin-left: 10%;
+margin-right: 10%;
+border-radius: 25px;
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+} 
+
+#caixaIdade img{
+    width: 150px;
+    margin-top: -65px;
+}
+
+#caixaIdade h2{
+    font-size: 18pt;
+    text-align: center;
+    width: 30%;
+
+}
+
+#buttom{
+    justify-content: space-between;
+    display: flex;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+#caixaIdade #buttom a{
+    color: white;
+    text-decoration: none;
+    border: white solid 2px;
+    font-size: 20pt;
+    width: 120px;
+    text-align: center;
+
+}
